@@ -1,0 +1,179 @@
+body {
+    background: lightslategrey;
+}
+
+a {
+    color: black;
+    transition: all 2s;
+}
+
+#montag {
+    font-size: 10rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(87, 7, 161);
+    padding: 0.8rem;
+    top: 100px;
+}
+
+#montag:hover {
+    color: rgb(205, 255, 238);
+    background-color: ivory;
+    transform: rotateX(306deg) rotateY(330deg) rotateZ(214deg) perspective(700px);
+    transform-origin: center center;
+}
+
+#montag:visited {
+    color: slategray;
+    background-color: slateblue;
+}
+
+#dienstag {
+    font-size: 10rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: lawngreen;
+    padding: 0.8rem;
+    top: 200px;
+}
+
+#dienstag:hover {
+    color: rgb(150, 26, 127);
+    background-color: rgb(97, 81, 144);
+    transform: rotateX(295deg) rotateY(330deg) rotateZ(117deg) perspective(700px);
+    transform-origin: center center;
+}
+
+#dienstag:visited {
+    color: rgb(133, 188, 45);
+    background-color: rgb(34, 147, 173);
+}
+
+#mittwoch {
+    font-size: 10rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: mediumvioletred;
+    padding: 0.8rem;
+    top: 300px;
+}
+
+#mittwoch:hover {
+    color: rgb(52, 130, 120);
+    background-color: rgb(10, 241, 6);
+    transform: rotateX(108deg) rotateY(330deg) rotateZ(290deg) perspective(700px);
+    transform-origin: center center;
+}
+
+#mittwoch:visited {
+    color: rgb(33, 18, 170);
+    background-color: rgb(77, 61, 120);
+}
+
+#donnerstag {
+    font-size: 10rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(250, 148, 5);
+    padding: 0.8rem;
+    top: 400px;
+}
+
+#donnerstag:hover {
+    color: rgb(52, 130, 120);
+    background-color: rgb(3, 11, 97);
+    transform: rotate(147deg) rotateX(108deg) rotateY(330deg) rotateZ(290deg) perspective(700px);
+    transform-origin: center center;
+}
+
+#donnerstag:visited {
+    color: rgb(33, 18, 170);
+    background-color: rgb(77, 61, 120);
+}
+
+#freitag {
+    font-size: 10rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(227, 235, 18);
+    padding: 0.8rem;
+    top: 500px;
+}
+
+#freitag:hover {
+    color: rgb(52, 130, 120);
+    background-color: rgb(213, 105, 184);
+    transform: rotate(48deg) rotateX(108deg) rotateY(330deg) rotateZ(290deg) perspective(700px);
+    transform-origin: center center;
+}
+
+#freitag:visited {
+    color: rgb(33, 18, 170);
+    background-color: rgb(77, 61, 120);
+}
+
+#samstag {
+    font-size: 10rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(23, 166, 228);
+    padding: 0.8rem;
+    top: 600px;
+}
+
+#samstag:hover {
+    color: rgb(52, 130, 120);
+    background-color: rgb(237, 175, 4);
+    transform: rotate(48deg) rotateX(108deg) rotateY(45deg) rotateZ(290deg) perspective(700px);
+    transform-origin: center center;
+}
+
+#samstag:visited {
+    color: rgb(33, 18, 170);
+    background-color: rgb(77, 61, 120);
+}
+
+#sonntag {
+    font-size: 10rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(235, 29, 18);
+    padding: 0.8rem;
+    top: 700px;
+}
+
+#sonntag:hover {
+    color: rgb(52, 130, 120);
+    background-color: rgb(138, 77, 2);
+    transform: rotate(48deg) rotateX(108deg) rotateY(45deg) rotateZ(290deg) perspective(2300px);
+    transform-origin: 32% center;
+}
+
+#sonntag:visited {
+    color: rgb(33, 18, 170);
+    background-color: rgb(77, 61, 120);
+}
+
+#home a {
+    display: block;
+}
+
+.menu {
+    position: fixed;
+    top: 100px;
+    left: 50px;
+    width: max-content
+}
+
+.day {
+    position: absolute;
+    left: 150px;
+    top: 200px;
+    transition: all 2s;
+}
+
+a:hover {
+    mix-blend-mode: difference;
+}
+
+body {
+    width: 5000px;
+    height: 5000px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
