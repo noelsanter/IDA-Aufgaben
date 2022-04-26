@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
 body {
     background: lightslategrey;
 }
@@ -191,7 +192,14 @@ html {
     color: darkslategray;
     font-size: 2rem;
     font-family: 'Libre Bodoni', serif;
-    ;
     text-align: center;
     margin-top: 50px;
+}
+
+.inhalt {
+    color: black;
+    font-family: 'Mulish', sans-serif;
+    padding-left: 300px;
+    padding-right: 300px;
+    vertical-align: middle;
 }
