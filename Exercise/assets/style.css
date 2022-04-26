@@ -9,10 +9,6 @@ a {
     transition: all 2s;
 }
 
-.Bildschirmgroesse {
-    width: 120%;
-}
-
 #montag {
     font-size: 10rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
