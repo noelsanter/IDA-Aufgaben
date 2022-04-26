@@ -1,9 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 p {
     color: darksalmon;
 }
 
 body {
-    background-color: black;
-    font-family: 'Roboto', sans-serif;
+    background-color: yellow;
+}
+
+.ueberschrift {
+    font-size: 5rem;
+    color: deeppink;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.gedanken {
+    font-size: 2rem;
+    font-family: 'Indie Flower', cursive;
 }
