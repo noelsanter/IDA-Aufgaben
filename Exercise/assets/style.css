@@ -192,10 +192,19 @@ html {
     margin-top: 50px;
 }
 
+.ueberschrift1 {
+    color: darkslategray;
+    font-size: 5rem;
+    font-family: 'Libre Bodoni', serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
 .inhalt {
     color: black;
     font-family: 'Mulish', sans-serif;
-    padding-left: 300px;
+    padding-left: 350px;
     padding-right: 300px;
     vertical-align: middle;
+    text-align: justify;
 }
