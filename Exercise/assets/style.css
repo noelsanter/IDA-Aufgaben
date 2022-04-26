@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni&display=swap');
 body {
     background: lightslategrey;
 }
@@ -5,6 +6,10 @@ body {
 a {
     color: black;
     transition: all 2s;
+}
+
+.Bildschirmgroesse {
+    width: 120%;
 }
 
 #montag {
@@ -176,4 +181,17 @@ body {
 
 html {
     scroll-behavior: smooth;
+}
+
+.sexybody {
+    width: 100%;
+}
+
+.ueberschrift {
+    color: darkslategray;
+    font-size: 2rem;
+    font-family: 'Libre Bodoni', serif;
+    ;
+    text-align: center;
+    margin-top: 50px;
 }
