@@ -1,0 +1,76 @@
+:root {
+    --red: #f33;
+    --green: #3f3;
+    --blue: #33f;
+    --pink: #f3c;
+    --cyan: #3ff;
+    --yellow: #ff3;
+    --white: #eee;
+    --black: #111;
+    --grey: #999;
+    --background: #ccc;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-content: space-around;
+    background-color: var(--background);
+    width: 500px;
+    height: 100vh;
+}
+
+.flex-item {
+    width: 150px;
+    height: 150px;
+}
+
+.red-bg {
+    background-color: var(--red);
+    /*align-self: flex-start;*/
+    /*order: 2;*/
+}
+
+.green-bg {
+    background-color: var(--green);
+    /*order: 0; */
+    /*flex-grow: 2;*/
+}
+
+.blue-bg {
+    background-color: var(--blue);
+    /*order: 3;*/
+    /*flex-grow: 30;*/
+}
+
+.pink-bg {
+    background-color: var(--pink);
+}
+
+.cyan-bg {
+    background-color: var(--cyan);
+}
+
+.yellow-bg {
+    background-color: var(--yellow);
+}
+
+.white-bg {
+    background-color: var(--white);
+}
+
+.black-bg {
+    background-color: var(--black);
+}
+
+.grey-bg {
+    background-color: var(--grey);
+}
