@@ -5,25 +5,32 @@
     text-align: center;
     border-radius: 28px;
     display: inline-block;
-    padding: 16px 32;
+    padding: 16px 32px;
+    color: white;
 }
 
 .specialbutton:hover {
-    background-color: lightcoral;
+    background-color: gold;
 }
 
 #element {
     position: absolute;
+    border-radius: 100%;
     top: 200px;
     left: 0px;
     width: 100px;
     height: 100px;
-    background-color: darkgrey;
+    background-color: yellowgreen;
 }
 
 .random {
     position: absolute;
-    width: 50px;
-    height: 70px;
-    background-color: darkolivegreen;
+    width: 5px;
+    height: 5px;
+    background-color: white;
+}
+
+.hintergrund {
+    width: 100%;
+    background-color: black;
 }

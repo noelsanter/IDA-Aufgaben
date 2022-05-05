@@ -2,7 +2,10 @@ let n = 0; /*schlüsselwort let und variablenname. zuweisung des werts von recht
 function buttonPressed() {
     n++; /* ist dasselbe wie n=n+1*/
     //console.log(document.getElementById("element"));
-    document.getElementById("element").style.left = (n * 5) + "px";
+    document.getElementById("element").style.top = (n * 20) + "px";
+    document.getElementById("element").style.left = (n * 50) + "px";
+
+
 }
 
 function neuesElement() {
