@@ -15,3 +15,11 @@ function neuesElement() {
     div.style.top = Math.random() * window.innerHeight + "px";
     document.body.appendChild(div);
 }
+
+function neuesElement() {
+    let div = document.createElement("div");
+    div.classList.add('random');
+    div.style.left = Math.random() * window.innerWidth + "px";
+    div.style.top = Math.random() * window.innerHeight + "px";
+    document.body.appendChild(div);
+}
