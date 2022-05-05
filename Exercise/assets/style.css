@@ -207,3 +207,11 @@ html {
     padding-right: 300px;
     text-align: justify;
 }
+
+.bilder {
+    width: 1000px;
+    height: auto;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 200px;
+}
