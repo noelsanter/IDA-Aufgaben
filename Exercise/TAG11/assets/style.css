@@ -36,3 +36,7 @@
     width: 100%;
     background-color: black;
 }
+
+.bild {
+    position: absolute;
+}
