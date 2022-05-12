@@ -1,0 +1,16 @@
+.button {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: solid 2px violet;
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button :hover {
+    box-shadow: #3f3;
+}
