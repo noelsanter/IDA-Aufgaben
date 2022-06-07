@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 .hintergrund {
     background-color: beige;
+    flex-direction: column;
 }
 
 .container {
@@ -38,5 +39,7 @@ h2 {
 
 .portrait {
     width: 40%;
-    border-right: 10%;
+    display: flex;
+    float: right;
+    position: relative;
 }

@@ -209,9 +209,9 @@ html {
 }
 
 .bilder {
-    width: 1000px;
+    width: 50%;
     height: auto;
-    transform: rotate(90deg);
-    position: absolute;
+    margin: auto;
+    display: flex;
     top: 200px;
 }
