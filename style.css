@@ -13,6 +13,9 @@ a {
     font-family: 'Amatic SC', cursive;
     font-size: 3rem;
     color: darkcyan;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 20%;
 }
 
 h1 {
@@ -21,11 +24,19 @@ h1 {
     text-align: left;
     font: bolder;
     color: maroon;
+    padding: 0;
+    margin: 0;
 }
 
 h2 {
     font-family: 'Amatic SC', cursive;
     font-size: 2rem;
-    text-align: right;
+    text-align: left;
     color: maroon;
+    padding: 0;
+}
+
+.portrait {
+    width: 40%;
+    border-right: 10%;
 }
